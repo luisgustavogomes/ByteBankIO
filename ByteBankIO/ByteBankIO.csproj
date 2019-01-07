@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1_LidandoComStreamDiretamente.cs" />
+    <Compile Include="1_LendoArquivoComStreamDiretamente.cs" />
+    <Compile Include="3_CriandoArquivoComStreamDiretamente.cs" />
+    <Compile Include="4_CriandoArquivoUsandoStreamWrite.cs" />
+    <Compile Include="5_StreamBinario.cs" />
     <Compile Include="Modelos\Cliente.cs" />
     <Compile Include="Modelos\ContaCorrente.cs" />
+    <Compile Include="2_LendoArquivoUsandoStreamReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
