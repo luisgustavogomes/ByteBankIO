@@ -11,9 +11,9 @@ namespace ByteBankIO
     {
         static void Main(string[] args)
         {
+            var linhas = File.ReadAllLines("contas.txt").ToList();
 
-
-            LeituraBinaria();
+            linhas.ForEach(l => Console.WriteLine(l));
 
             Console.ReadLine();
         }
